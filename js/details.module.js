@@ -6,7 +6,7 @@ export class Details{
         $('.games').addClass("d-none");
         $('.details').removeClass("d-none");
         $(this.getDetails(this.id)).ready(()=>{
-            $('.loading').fadeOut(1000);
+            $('.loading').fadeOut(4000);
         });
         
     }

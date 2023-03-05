@@ -4,7 +4,7 @@ export class Ui{
       this.games = games;
       this.row = document.getElementById('gameData');
       $(this.display()).ready(()=>{
-         $('.loading').fadeOut(1000);
+         $('.loading').fadeOut(4000);
         });
         $('.card').click( (e) => {
             const gameId = $(e.target).parentsUntil(".col")[$(e.target).parentsUntil(".col").length-1].getAttribute('data-id');
